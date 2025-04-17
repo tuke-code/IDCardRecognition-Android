@@ -1,5 +1,10 @@
 pluginManagement {
     repositories {
+        maven { url 'https://maven.aliyun.com/repository/public' }
+//        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         google()
         mavenCentral()
         gradlePluginPortal()
@@ -9,6 +14,11 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven { url 'https://maven.aliyun.com/repository/public' }
+//        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         google()
         mavenCentral()
         jcenter()
@@ -17,4 +27,8 @@ dependencyResolutionManagement {
 rootProject.name = "IDCardRecognition"
 include ':app'
 include ':libidsdk'
+// 若模块在子目录，需指定路径：
+// 删除 ../subdir/ 路径前缀
+//project(':libidsdk').projectDir = new File('libidsdk')  // 直接指向同级目录
+
 include ':libfotoapparat'
