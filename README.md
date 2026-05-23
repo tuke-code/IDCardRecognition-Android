@@ -10,11 +10,11 @@
 ![FRVT Sheet](https://github.com/user-attachments/assets/16b4cee2-3a91-453f-94e0-9e81262393d7)
 
 #### 🆔 ID Document Liveness Detection - Linux - [Here](https://web.kby-ai.com)  <span><img src="https://github.com/kby-ai/.github/assets/125717930/bcf351c5-8b7a-496e-a8f9-c236eb8ad59e" alt="badge" width="36" height="20"></span>
-#### 🤗 Hugging Face - [Here](https://huggingface.co/kby-ai)
+#### 🤗 Hugging Face - [Here](https://huggingface.co/spaces/kby-ai/IDCardRecognition)
 #### 📚 Product & Resources - [Here](https://github.com/kby-ai/Product)
 #### 🛟 Help Center - [Here](https://docs.kby-ai.com/help/product/id-card-sdk)
 #### 💼 KYC Verification Demo - [Here](https://github.com/kby-ai/KYC-Verification-Demo-Android)
-#### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/u/kbyai)
+#### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/r/kbyai/idcard-recognition)
 
 # IDCardRecognition-Android
 ## Overview
@@ -65,27 +65,28 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=s3G3MzrdD
   | 5        | [ID Card Recognition - Windows](https://github.com/kby-ai/IDCardRecognition-Windows)        | Server-Windows |
   | 6        | [ID Card Recognition - Linux](https://github.com/kby-ai/IDCardRecognition-Docker)        | Server-Linux |
   | 7        | [ID Card Recognition - C#](https://github.com/kby-ai/IDCardRecognition-CSharp-.NET)        | Server-Windows |
+  | 8        | [ID Card Liveness Detection - Linux](https://github.com/kby-ai/ID-Document-Liveness-Detection-Docker)        | Server-Linux |
 
 ## SDK License
 
 - The code line below shows how to update SDK with the `license key`: https://github.com/kby-ai/IDCardRecognition-Android/blob/1db9754a66b0211715ab458a23d3a2dd93f9303d/app/src/main/java/com/kbyai/idcardrecognition/MainActivity.kt#L22-L31
 - To request `license key`, please contact us:</br>
 🧙`Email:` contact@kby-ai.com</br>
-🧙`Telegram:` [@kbyai](https://t.me/kbyai)</br>
+🧙`Telegram:` [@kbyaisupport](https://t.me/kbyaisupport)</br>
 🧙`WhatsApp:` [+19092802609](https://wa.me/+19092802609)</br>
-🧙`Discord:` [KBY-AI](https://discord.gg/CgHtWQ3k9T)</br>
+🧙`Discord:` [KBY-AI](https://discord.gg/6wm383re2s)</br>
 🧙`Teams:` [KBY-AI](https://teams.live.com/l/invite/FBAYGB1-IlXkuQM3AY)</br>
 
 ## How To Run
 ### 1. Placing Library File
-   Download the `SDK library` file for `Android`(`idsdk.aar`) from [here](https://drive.google.com/file/d/1hys99a7QG7-px_m8DGa9RKqR7wr6E8bS/view?usp=sharing) and put it on the suitable `SDK` folder(folder `libidsdk`).</br> 
+   Download the `SDK library` file for `Android`(`idsdk.aar`) from [here](https://drive.google.com/file/d/1ktDva4cbY_ASEwTtLwnl--U-RgykR_M4/view?usp=sharing) and put it on the suitable `SDK` folder(folder `libidsdk`).</br> 
 ### 3. Running the App
   Try to build this repo on `Android Studio` by linking real `Android` phone, not `simulator`. Once it works fine, you are ready to integrate our `SDK` to your project.</br>
 
 ## About SDK
 
 ### 1. Set up
-1. Download our SDK library file(`idsdk.aar`) from [here](https://drive.google.com/file/d/1hys99a7QG7-px_m8DGa9RKqR7wr6E8bS/view?usp=sharing) and paste it to SDK folder(folder `libidsdk`).</br> Try to build this repo to make sure that SDK works fine by linking real `Android` phone, not `simulator`. Once it works fine, you are ready to integrate our SDK to your project.</br>
+1. Download our SDK library file(`idsdk.aar`) from [here](https://drive.google.com/file/d/1ktDva4cbY_ASEwTtLwnl--U-RgykR_M4/view?usp=sharing) and paste it to SDK folder(folder `libidsdk`).</br> Try to build this repo to make sure that SDK works fine by linking real `Android` phone, not `simulator`. Once it works fine, you are ready to integrate our SDK to your project.</br>
 And then copy the SDK(folder `libidsdk`) to the `root` folder in your project.
 
 2. Add SDK to the project in `settings.gradle`.
